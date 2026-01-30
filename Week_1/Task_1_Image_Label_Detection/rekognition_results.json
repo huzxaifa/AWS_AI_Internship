@@ -1,0 +1,122 @@
+{
+    "1748370012264.jpg": [
+        {
+            "Label": "Wristwatch",
+            "Confidence": 99.75
+        },
+        {
+            "Label": "Computer Hardware",
+            "Confidence": 98.77
+        },
+        {
+            "Label": "Electronics",
+            "Confidence": 98.77
+        },
+        {
+            "Label": "Hardware",
+            "Confidence": 98.77
+        },
+        {
+            "Label": "Monitor",
+            "Confidence": 98.77
+        },
+        {
+            "Label": "Screen",
+            "Confidence": 98.77
+        },
+        {
+            "Label": "Arm",
+            "Confidence": 97.97
+        },
+        {
+            "Label": "Body Part",
+            "Confidence": 97.97
+        },
+        {
+            "Label": "Person",
+            "Confidence": 97.97
+        },
+        {
+            "Label": "Digital Watch",
+            "Confidence": 96.59
+        }
+    ],
+    "Earbuds MPOW.jpeg": [
+        {
+            "Label": "Electronics",
+            "Confidence": 99.31
+        },
+        {
+            "Label": "Appliance",
+            "Confidence": 77.08
+        },
+        {
+            "Label": "Blow Dryer",
+            "Confidence": 77.08
+        },
+        {
+            "Label": "Device",
+            "Confidence": 77.08
+        },
+        {
+            "Label": "Electrical Device",
+            "Confidence": 77.08
+        }
+    ],
+    "juice.png": [
+        {
+            "Label": "Food",
+            "Confidence": 98.16
+        },
+        {
+            "Label": "Ketchup",
+            "Confidence": 98.16
+        },
+        {
+            "Label": "Plant",
+            "Confidence": 96.5
+        },
+        {
+            "Label": "Produce",
+            "Confidence": 96.5
+        },
+        {
+            "Label": "Tomato",
+            "Confidence": 96.5
+        },
+        {
+            "Label": "Vegetable",
+            "Confidence": 96.5
+        },
+        {
+            "Label": "Person",
+            "Confidence": 85.21
+        }
+    ],
+    "mountain_rocks.jfif": [
+        {
+            "Label": "Desert",
+            "Confidence": 99.76
+        },
+        {
+            "Label": "Nature",
+            "Confidence": 99.76
+        },
+        {
+            "Label": "Outdoors",
+            "Confidence": 99.76
+        },
+        {
+            "Label": "Rock",
+            "Confidence": 99.48
+        },
+        {
+            "Label": "Scenery",
+            "Confidence": 95.56
+        },
+        {
+            "Label": "Ground",
+            "Confidence": 74.53
+        }
+    ]
+}
