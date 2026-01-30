@@ -33,7 +33,7 @@ Original-Image in S3 bucket (huzaifas-images)
 
 Resized-Image in S3 bucket (huzaifas-resized-images)
 
-![alt text](images/Resized-image.png)
+![alt text](images/Image-resized.png)
 
 Created an Image Resize Lambda function that automatically triggers when image is uploaded to S3 bucket (huzaifas-images).
 Which is then resized into the resized image bucket (huzaifas-resized-images).
