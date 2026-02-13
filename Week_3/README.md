@@ -4,14 +4,14 @@ A local, serverless pipeline for **ingesting, classifying, and extracting data**
 
 ## Features
 
-*   ** Real-Time Ingestion**: Monitors `data/input/` for new PDF files.
-*   ** Zero-Shot Classification**: Uses `joeddav/xlm-roberta-large-xnli` to automatically categorize files into:
+*   **Real-Time Ingestion**: Monitors `data/input/` for new PDF files.
+*   **Zero-Shot Classification**: Uses `joeddav/lm-roberta-large-xnli` to automatically categorize files into:
     *   Invoice, Resume, Technical Document, Email, Project Report.
-*   ** Key Field Extraction**: Uses Regex to pull metadata based on category:
+*   **Key Field Extraction**: Uses Regex to pull metadata based on category:
     *   **Invoices**: Invoice #, Date, Total Amount ($).
     *   **General**: Emails, Phone Numbers.
-*   ** CSV Logging**: Automatically saves all results to `data/output/results.csv`.
-*   ** Bulk Processing**: Scans existing files on startup.
+*   **CSV Logging**: Automatically saves all results to `data/output/results.csv`.
+*   **Bulk Processing**: Scans existing files on startup.
 
 ## Pipeline Flow
 
@@ -62,5 +62,3 @@ We experimented with several Zero-Shot models to find the right balance of speed
     *   Drop a PDF into `data/input`.
     *   Watch the terminal for real-time results.
     *   Check `data/output/results.csv` for the data.
-
-```
