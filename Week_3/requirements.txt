@@ -2,5 +2,7 @@ watchdog==4.0.0
 pymupdf==1.23.26
 transformers==4.37.2
 torch==2.2.0
-
-
+dateparser==1.2.0
+sentencepiece==0.1.99
+tiktoken==0.5.2
+protobuf==3.20.3
