@@ -1,0 +1,6 @@
+watchdog==4.0.0
+pymupdf==1.23.26
+transformers==4.37.2
+torch==2.2.0
+
+

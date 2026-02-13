@@ -1,0 +1,122 @@
+---INTERVIEW PREP---
+ 
+ 
+ 
+ 
+ 
+ML/AI - Interview Prep Document 
+ 
+At Cowlar, we believe our work should be a blend of hard work, innovation & excellence. This 
+requires us to constantly strive to make ourselves better at what we do. This also makes it 
+necessary for our hiring philosophy and process to be unique from what you’re probably 
+expecting. 
+  
+Please read this entire document carefully. Please use the materials below to prepare for the 
+interview. 
+ 
+Once you have completed your preparation and feel like you are ready, please email us with 
+three preferred dates (s) of availability. We try to schedule the interview on your preferred 
+dates1. The venue for the interview/ test is our office located (here) in Islamabad. Our 
+requirements, interview process & hiring philosophy are unique. It’s important that you review 
+the information carefully and decide if you want to work here. 
+  
+General Requirements 
+-​
+Hardworking, decent &  honest  
+-​
+Intelligent 
+-​
+Should have the ability to assimilate complex ideas 
+-​
+MUST be able to document your work and develop clear and easy to understand documents 
+-​
+MUST understand how to create loom videos 
+-​
+Recently graduating candidates MUST have the ability to learn by doing [1] [2] using online 
+learning methods/tutorials 
+-​
+Experienced candidates MUST have excellent communication skills & understand how to 
+train, manage & help less experienced colleagues grow  
+-​
+Must have the ability to follow instructions2  
+-​
+Must be a team player [1] [2] 
+-​
+Understand good work ethic [1]  
+-​
+Must be a good fit into our team culture 
+-​
+Must value your time & our time [1] 
+-​
+Should treat everyone 3 with respect  
+-​
+Must know how to use the internet 4 
+4 We don't expect you to know the answer to every question but we do expect you to know where to look. You should know how to 
+google solutions to problems and use stackoverflow / online user forums / online community resources / discussion groups to your 
+3 Everyone means everyone, including o
+
+---PROJECT STATEMENT---
+Problem Statement: Intelligent E-Commerce Ad Creative Generator with 
+MLOps Pipeline 
+Modern e-commerce businesses require dynamic and visually compelling 
+advertisement creatives for product marketing. However, generating high-quality 
+promotional content manually for thousands of products is time-consuming and 
+resource-intensive. 
+Your task is to design and deploy a Generative AI-powered Ad Creative 
+Automation System, supported by a fully operational MLOps pipeline that ensures 
+scalable deployment, monitoring, automated retraining, and continuous delivery. 
+ 
+Project Objective 
+Build a system that automatically generates marketing creatives (text and optionally 
+image layout) for e-commerce products based on the product title and short 
+description. The creatives should follow a standardized style and be suitable for 
+social media posting. 
+The 
+project 
+must 
+demonstrate 
+the 
+full 
+machine 
+learning 
+lifecycle 
+with 
+production-grade infrastructure built using modern MLOps practices. 
+ 
+Core Functional Features 
+Feature 
+Description 
+Data Ingestion 
+Pull product metadata (name, category, description) from a 
+CSV/API 
+Generative Model 
+Training 
+Fine-tuned LLM for text creatives (e.g., T5, GPT-Neo, 
+LLaMA-based small model) 
+Versioning 
+Track datasets and model versions using MLflow 
+Model Deployment 
+Containerize model inference service using Docker 
+Production Deployment Deploy microservices on Cloud-based Kubernetes 
+(AKS/GKE/EKS/DigitalOcean) 
+Continuous 
+Integration/Delivery 
+Implement GitHub Actions pipeline for automated testing, 
+container build, and deployment 
+Monitoring 
+Expose model performance and inference latency via a 
+custom Prometheus exporter 
+
+Feature 
+Description 
+Visualization 
+Create Grafana dashboards for real-time system health 
+and custom ML metrics 
+Scheduling 
+Use Airflow to schedule batch inferences and retraining 
+workflows 
+ 
+System Architecture Requirements 
+Your solution must include the following components: 
+1.​ Data Layer 
+o

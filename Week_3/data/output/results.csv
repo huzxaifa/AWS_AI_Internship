@@ -1,0 +1,19 @@
+Timestamp,Filename,Category,Confidence,Invoice Number,Date,Total Amount,Emails,Phones
+13/02/2026 19:33,sample_1.pdf,Invoice,0.95,To,17/10/2023,1185,,
+13/02/2026 19:33,sample_8.pdf,Technical document,0.52,,,,,
+13/02/2026 19:33,sample_doc.pdf,Invoice,0.38,,27/10/2023,500,,
+13/02/2026 19:33,sample_doc2.pdf,Technical document,0.24,,,,huzaifakhalid7c@gmail.com,317-5137945
+13/02/2026 19:33,sample_doc3.pdf,Project report,0.26,,,,,
+13/02/2026 19:33,testdoc_4.pdf,Email,0.95,,,,,
+13/02/2026 19:33,test_doc1.pdf,Technical document,0.25,,,,careers@cowlar.com; info@cowlar.com,
+13/02/2026 19:33,test_doc2.pdf,Invoice,0.38,,27/10/2023,500,,
+13/02/2026 19:34,test_doc3.pdf,Technical document,0.33,,,,,
+13/02/2026 19:36,sample_1.pdf,Invoice,0.95,To,17/10/2023,1185,,
+13/02/2026 19:37,sample_8.pdf,Technical document,0.52,,,,,
+13/02/2026 19:37,sample_doc.pdf,Invoice,0.38,,27/10/2023,500,,
+13/02/2026 19:37,sample_doc2.pdf,Technical document,0.24,,,,huzaifakhalid7c@gmail.com,317-5137945
+13/02/2026 19:37,sample_doc3.pdf,Project report,0.26,,,,,
+13/02/2026 19:37,testdoc_4.pdf,Email,0.95,,,,,
+13/02/2026 19:37,test_doc1.pdf,Technical document,0.25,,,,info@cowlar.com; careers@cowlar.com,
+13/02/2026 19:37,test_doc2.pdf,Invoice,0.38,,27/10/2023,500,,
+13/02/2026 19:37,test_doc3.pdf,Technical document,0.33,,,,,
