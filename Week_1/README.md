@@ -1,6 +1,5 @@
 # Week 1 – AWS AI & ML Foundations
-
-This folder contains the **Week 1 tasks** completed as part of my internship at **Cloud Elligent**.  
+ 
 The focus of this week was to get hands-on exposure to **AWS AI services**, understand how they integrate with S3 and Python (Boto3), and explore the **SageMaker Studio environment**.
 
 ---
