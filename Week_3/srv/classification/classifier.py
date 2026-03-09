@@ -1,15 +1,22 @@
+import os
+# Force cache to /tmp for AWS Lambda (Read-Only fix)
+os.environ['HF_HOME'] = '/tmp'
+os.environ['TRANSFORMERS_CACHE'] = '/tmp'
+
 from transformers import pipeline
 
 class DocumentClassifier:
     def __init__(self):
         # Zero-Shot classification
-        print("Loading Flexible Business Classifier (Zero-Shot: joeddav/xlm-roberta-large-xnli)...")
-        self.classifier = pipeline("zero-shot-classification", model="joeddav/xlm-roberta-large-xnli")
+        # We use DistilBERT for speed and English accuracy (0.99+)
+        # XLM-RoBERTa is too heavy (2.2GB) for quick local testing
+        print("Loading Flexible Business Classifier (Zero-Shot: distilbert-base-uncased-mnli)...")
+        self.classifier = pipeline("zero-shot-classification", model="typeform/distilbert-base-uncased-mnli")
         
         self.labels = [
             "Invoice",
             "Resume", 
-            "Technical document",
+            "Scientific document",
             "Email",
             "Project report"
         ]
