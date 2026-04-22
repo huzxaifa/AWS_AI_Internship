@@ -1,0 +1,22 @@
+Potential Sources of bias across systems
+
+Biased training data
+Historical data reflects past human discrimination (e.g., against certain races, genders, neighborhoods), so models learn and reproduce those patterns.
+
+Unbalanced representation
+Some groups appear much less in the dataset (e.g., darker‑skinned faces, women, people with disabilities), so the system is less accurate for them.
+
+Proxy features for protected traits
+Variables like postcode, school, club membership, tenure gaps, or non‑English names act as stand‑ins for race, class, or gender, even if those traits are never explicitly used.
+
+Sagemaker Clarify features and capabilities
+
+Bias Detection: Analyzes data and models for biases (e.g., gender or age bias) throughout the ML lifecycle—pre-training, post-training, and with live endpoint monitoring.
+
+Model Explainability: Uses feature importance metrics (e.g., SHAP values) to explain how different input features influence model predictions.
+
+Monitoring: Integrates with SageMaker Model Monitor to detect bias drift and feature importance drift in production.
+
+Generative AI Evaluation: Evaluates Foundation Models (FMs) for accuracy, toxicity, and robustness, offering both automatic and human-in-the-loop assessments.
+
+Reports: Generates detailed reports to assist in understanding, debugging, and demonstrating model fairness to stakeholder
