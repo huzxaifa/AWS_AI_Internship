@@ -1,3 +1,4 @@
-./model.tar.gz
-./data.csv
+model.tar.gz
+data.csv
+data_clean.csv
 .env
